@@ -17,16 +17,16 @@ class Queue:
     
 A = [10, 8, 4, 1, 2, 3, 6, 5, 7]
 
-def twoSums(nums: list, target):
+def twoSum(nums: list, target):
     for i, n in enumerate(nums):
         diff = target - n
         if nums.index(diff):
             return [i, nums.index(diff)]
     return -1
 
-print(twoSums(A, 17))
+print(twoSum(A, 17))
 print("\n\n")
 
-v = twoSums(A, 17)
+v = twoSum(A, 17)
 print(A[v[0]])
 print(A[v[1]])
