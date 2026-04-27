@@ -3,10 +3,8 @@ import random
 
 def printMatrix(matrix, m, n):
     for i in range(m):
-        print("[ ", end="")
         for j in range(n):
             print(matrix[i][j], end=" ")
-        print("]")
         print()
 
 m = 7
