@@ -24,4 +24,11 @@ int main() {
     vector<int> sa = buildSuffixArray(s);
 
     for (int i : sa) cout << i << " ";
+
+    int biscuits[5]{20, 54, 43, 54};
+
+    cout << "\n\nPrinting biscuit\n\n";
+    for(auto s : biscuits) {
+        cout << s << "newline\n";
+    }
 }
