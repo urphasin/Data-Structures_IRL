@@ -4,11 +4,11 @@ import random
 def printMatrix(matrix, m, n):
     for i in range(m):
         for j in range(n):
-            print(matrix[i][j], end=" \t")
+            print(matrix[i][j], end="\t")
         print()
 
 m = 7
-n = 20
+n = 12
 
 
 # generate an m x n matrix with random values from 0 to 10
